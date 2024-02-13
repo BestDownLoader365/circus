@@ -1,7 +1,7 @@
 public class Trainer {
     public static void main(String[] args) {
         Duck d = new Duck();
-        getToSpeak(d);
+        //getToSpeak(d);
 
         Bird b = (Bird) d;  // upcasting
         getToSpeak(b);
